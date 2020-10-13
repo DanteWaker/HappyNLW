@@ -67,8 +67,7 @@ main h1 {
         padding: 5rem 2rem;
         /* shorthand background: image repeat position / size */
         background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
-        
-
+    
     }
     header {
         display: flex;
@@ -111,4 +110,6 @@ main h1 {
     .visit a {
         margin: initial;
     }
+
+    
 }
