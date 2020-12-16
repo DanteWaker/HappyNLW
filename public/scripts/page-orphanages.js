@@ -34,7 +34,7 @@ const orphanagesSpan = document.querySelectorAll('.orphanages span')
 
 orphanagesSpan.forEach(span => {
     const orphanage = {
-        id: span.dataset.name,
+        id: span.dataset.id,
         name: span.dataset.name,
         latitude: span.dataset.latitude, 
         longitude: span.dataset.longitude
